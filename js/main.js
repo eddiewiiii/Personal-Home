@@ -95,3 +95,53 @@ function scrollToTopWithAnimation() {
 
   requestAnimationFrame(animation);
 }
+
+// 这是聊天逻辑函数
+document.addEventListener('DOMContentLoaded', function() {
+    const chatBox = document.getElementById('chat-box');
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-button');
+    const apiEndpoint = 'https://api.coze.cn/open_api/v2/chat';
+    const personalAccessToken = 'Bearer YOUR_PERSONAL_ACCESS_TOKEN';
+    const botId = 'YOUR_BOT_ID';
+
+    // Display initial message from the bot
+    displayMessage('incoming', 'Hello there! How are you doing today? Just type something if you would like to practice your English.');
+
+    sendButton.addEventListener('click', function() {
+        const message = userInput.value.trim();
+        if (message) {
+            sendMessage(message);
+        }
+    });
+
+    userInput.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            const message = userInput.value.trim();
+            sendMessage(message);
+        }
+    });
+
+    function sendMessage(message) {
+        // Implement your API call to send the message and handle the response
+        console.log('Sending message:', message);
+
+        // For demonstration, we'll simulate a bot response
+        setTimeout(() => {
+            const simulatedResponse = 'This is a simulated response to your message.';
+            displayMessage('incoming', simulatedResponse);
+        }, 1000);
+
+        displayMessage('outgoing', message);
+        userInput.value = ''; // Clear input after sending
+    }
+
+    function displayMessage(type, content) {
+        const messageDiv = document.createElement('div');
+        messageDiv.classList.add('message', type);
+        messageDiv.textContent = content;
+        chatBox.appendChild(messageDiv);
+        chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom
+    }
+})
