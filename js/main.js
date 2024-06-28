@@ -96,7 +96,7 @@ function scrollToTopWithAnimation() {
   requestAnimationFrame(animation);
 }
 
-// 这是聊天逻辑函数
+//这里是聊天逻辑
 document.addEventListener('DOMContentLoaded', function() {
     const chatBox = document.getElementById('chat-box');
     const userInput = document.getElementById('user-input');
@@ -145,3 +145,4 @@ document.addEventListener('DOMContentLoaded', function() {
         chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom
     }
 })
+
