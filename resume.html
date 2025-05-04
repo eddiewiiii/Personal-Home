@@ -16,9 +16,9 @@
   <meta name="theme-color" content="#1C1C1F">
   <link rel="stylesheet" href="https://cdn3.codesign.qq.com/icons/X2bzpZvRWkZkAaV/latest/iconfont.css">
   <style>
-/* 统一板块样式 */
+/* 统一简历板块基础样式 */
 .resume-section {
-  padding: 40px 0; /* 统一上下间距 */
+  padding: 40px 0;
   display: flex;
   align-items: center;
   min-height: auto;
@@ -27,7 +27,7 @@
 .resume-card {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 16px;
-  padding: 40px; /* 统一内边距 */
+  padding: 40px;
   margin: 0 auto;
   max-width: 1200px;
   width: 90%;
@@ -35,39 +35,160 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* 统一内容区域样式 */
-.resume-content, 
-.job-entry, 
-.education-content, 
-.skills-grid {
-  margin-bottom: 0; /* 移除不必要的底部间距 */
+.resume-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* 统一标题样式 */
+/* 统一标题和间距系统 */
 .section-title {
   font-size: 1.8rem;
   font-weight: 600;
   color: #1C1C1F;
-  margin-bottom: 30px; /* 统一标题下边距 */
+  margin-bottom: 30px;
   position: relative;
   padding-bottom: 10px;
 }
 
-/* 技能特长板块优化 */
+.section-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #3D00A0, #830FC1);
+}
+
+/* 头部信息样式 */
+.resume-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.resume-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1C1C1F;
+  margin-bottom: 10px;
+}
+
+.resume-subtitle {
+  font-size: 1.2rem;
+  color: #3D00A0;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #3D00A0;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.contact-info a:hover {
+  color: #830FC1;
+}
+
+/* 工作经历统一样式 */
+.job-entry {
+  margin-bottom: 40px;
+}
+
+.job-entry:last-child {
+  margin-bottom: 0;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1C1C1F;
+  margin-bottom: 5px;
+}
+
+.company {
+  color: #3D00A0;
+  font-weight: 700;
+}
+
+.job-period {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.job-highlight {
+  font-weight: 600;
+  color: #1C1C1F;
+}
+
+.job-details {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.job-details li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.job-details li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: #830FC1;
+  border-radius: 50%;
+}
+
+/* 技能特长优化布局 */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px; /* 适当间距 */
+  gap: 20px;
 }
 
 .skill-category {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
-  padding: 20px; /* 统一内边距 */
+  padding: 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-/* 教育背景板块优化 */
+.skill-category h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1C1C1F;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-item i {
+  color: #830FC1;
+  margin-right: 10px;
+}
+
+/* 教育背景统一布局 */
 .education-content {
   display: flex;
   flex-wrap: wrap;
@@ -75,62 +196,77 @@
   gap: 40px;
 }
 
-.education-left, 
-.education-right {
+.education-left {
   flex: 1;
   min-width: 300px;
 }
 
-/* 响应式调整 */
+.education-right {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.education-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.education-school {
+  font-size: 1.5rem;
+  color: #3D00A0;
+  margin-bottom: 10px;
+}
+
+.education-degree {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education-period {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.education-description {
+  line-height: 1.6;
+}
+
+/* 响应式设计优化 */
 @media (max-width: 768px) {
   .resume-section {
-    padding: 30px 0; /* 移动端适当减少间距 */
+    padding: 30px 0;
   }
   
   .resume-card {
-    padding: 30px 20px; /* 移动端内边距调整 */
+    padding: 30px 20px;
   }
   
   .skills-grid {
-    grid-template-columns: 1fr; /* 移动端单列布局 */
+    grid-template-columns: 1fr;
   }
   
   .education-content {
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   
   .education-left, 
   .education-right {
     min-width: 100%;
   }
-}
-    
-    /* 响应式调整 */
-@media (max-width: 768px) {
-  .resume-section {
-    padding: 20px 0; /* 移动端进一步减少间距 */
+  
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
   }
   
-      
-  .resume-card {
-    padding: 20px 15px; /* 移动端内边距调整 */
+  .job-title {
+    font-size: 1.3rem;
   }
-
-      .contact-info {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-      }
-      
-      .education-content {
-        flex-direction: column;
-      }
-      
-      .education-left, .education-right {
-        min-width: 100%;
-      }
-    }
+}
   </style>
 </head>
 
