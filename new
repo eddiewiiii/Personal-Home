@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>特克猫先生 - 用科技温暖生活</title>
+  <meta name="description" content="用产品去突破限制，去引领变化，去塑造新境界。特克猫先生的网站。">
+  <meta name="theme-color" content="#1C1C1F">
+  
+  <!-- 简化后的favicon声明 -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="特克猫先生">
+  
+  <!-- 样式表 -->
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="https://cdn3.codesign.qq.com/icons/X2bzpZvRWkZkAaV/latest/iconfont.css">
+  
+  <!-- 脚本 -->
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?0a0cca83682044c405966961a1ff1b9b";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body id="body">
+  <header class="nav">
+    <div class="nav-content">
+      <div class="nav-left">
+        <a href="javascript:scrollToTopWithAnimation()" class="site-logo">
+          <img src="/img/icon.webp" alt="特克猫先生logo" class="site-logo-img">
+          <span class="site-name">特克猫先生</span>
+        </a>
+      </div>
+      <nav class="nav-center">
+        <a href="javascript:heoWeb.scrollTo('英语学习');" class="nav-item">英语学习</a>
+        <a href="javascript:heoWeb.scrollTo('服务');" class="nav-item">服务</a>
+        <a href="javascript:heoWeb.scrollTo('公众号阅读');" class="nav-item">公众号阅读</a>
+        <a href="javascript:heoWeb.scrollTo('应用');" class="nav-item">应用</a>
+        <a href="javascript:heoWeb.scrollTo('项目');" class="nav-item">项目</a>        
+      </nav>
+      <div class="nav-right">
+        <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="nav-item">博客</a>
+        <a href="https://teameddie.top/gzh" class="nav-item">公众号</a>
+        <button class="nav-menu" id="nav-menu"><span class="heofont icon-menu-fill"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu-list" id="menu-list">
+    <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="nav-item">博客</a>
+    <a href="https://teameddie.top/gzh" class="nav-item">公众号</a>
+    <a href="javascript:heoWeb.scrollTo('英语学习');" class="nav-item">英语学习</a>
+    <a href="javascript:heoWeb.scrollTo('服务');" class="nav-item">服务</a>
+    <a href="javascript:heoWeb.scrollTo('公众号阅读');" class="nav-item">公众号阅读</a>
+    <a href="javascript:heoWeb.scrollTo('应用');" class="nav-item">应用</a>
+    <a href="javascript:heoWeb.scrollTo('项目');" class="nav-item">项目</a>        
+  </div>
+
+  <main>
+    <section class="first-stack need-padding">
+      <div class="left-Introduce">
+        <div class="title-group">
+          <h1 class="title">MR. TECH CAT</h1>
+          <h2 class="title">MARKETING PLAYER</h2>
+        </div>
+        <div class="discription">
+          <p class="discription-text">让一个市场人以科技为<span class="inline-word">笔，</span><br>绘就出非凡的<span class="inline-word">体验。</span></p>
+        </div>
+        <div class="first-stack-links">
+          <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="about-button">了解更多</a>
+          <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="about-button social-button">
+            <i class="heofont icon-github-line"></i>
+          </a>
+          <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="about-button social-button">
+            <i class="heofont icon-dribbble-line"></i>
+          </a>
+        </div>
+      </div>
+      <a href="https://flowus.cn/mrtechcat/share/e000d94b-f6c2-4bb6-8d6f-39b3a8b0a661?code=U71JA4" class="right-stack">
+        <img loading="lazy" class="banner-img" src="/img/tech.webp" alt="特克猫先生科技主题横幅" title="特克猫先生科技主题横幅">
+      </a>
+    </section>
+
+    <section class="avatar-discription">
+      <p class="avatar-discription-text">我是特克猫先生，一个专注于科技、生活与英语领域的博主。我通过 "iEng英墨语林" 平台，提供轻松有趣的免费英语学习体验。我的公众号文章也可以在这里阅读，有前沿科技、创新应用、深度视角等板块。嘿，我还推出了我的微信表情包，一只可爱的猫咪穿上了超人披风，要去拯救每一个无聊的时刻哦。欢迎访问我的网站，和我一起探索科技的奇妙，享受语言学习的乐趣，发现生活中的小确幸。</p>
+      <img loading="lazy" class="avatar-image" src="./img/avatar.jpg" alt="特克猫先生头像">
+      <h2 class="avatar-name">MR. TECH CAT</h2>
+      <p class="avatar-title">市场人，科技、生活与英语领域自媒体博主</p>
+    </section>
+
+    <!-- 敲木鱼banner -->
+    <section class="product-banner">
+      <div class="banner-info need-padding">
+        <span class="tips">iEng英墨语林</span>
+        <h2 class="title">英你启航<span class="punctuation">，</span><br>语你飞翔<span class="punctuation">。</span></h2>
+        <div class="banner-discription-group">
+          <p class="description">英语，从此<span class="inline-word">触手可及<span class="punctuation">。</span></span></p>
+          <p class="description">让世界与你对话，<span class="inline-word">让沟通再无界限<span class="punctuation">。</span></span></p>
+        </div>
+        <div class="link-group">
+          <a class="primary-button" href="https://flowus.cn/share/a16f4830-c8d5-4e44-8bf6-eb7beccc2c02?code=U71JA4">立即查看</a>
+          <a class="second-link" href="https://flowus.cn/share/5098c5e8-ddf8-4159-9485-9539095a405a?code=U71JA4">如何开始</a>
+        </div>
+      </div>
+      <div class="banner-pic">
+        <img loading="lazy" class="banner-pic-img" src="/img/banner1.webp" alt="iEng英墨语林宣传图片">
+      </div>
+    </section>
+
+    <section class="product-group need-padding" id="英语学习">
+      <h2 class="group-title">英墨语林</h2>
+      <p class="group-description">让世界与你对话</p>
+      <div class="group-items">
+
+        <!-- 超越阅读 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://flowus.cn/share/1ffc1044-3944-4af8-b039-903d1e3efa72?code=U71JA4">
+            <img loading="lazy" class="group-item-icon-img" src="/img/yy1.webp" alt="超越阅读图标" title="超越阅读">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://flowus.cn/share/1ffc1044-3944-4af8-b039-903d1e3efa72?code=U71JA4">超越阅读<sup class="hot">热门</sup></a>
+              <p class="discription">让每个单词都充满意义</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://flowus.cn/share/1ffc1044-3944-4af8-b039-903d1e3efa72?code=U71JA4">前往</a>
+              <span class="linkbotton-tips">最热门</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 听力探险 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://flowus.cn/share/1fc0b717-e81c-42a0-b11b-f3aab0428db1?code=U71JA4">
+            <img loading="lazy" class="group-item-icon-img" src="/img/yy2.webp" alt="听力探险图标" title="听力探险">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://flowus.cn/share/1fc0b717-e81c-42a0-b11b-f3aab0428db1?code=U71JA4">听力探险</a>
+              <p class="discription">让英语成为日常</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://flowus.cn/share/1fc0b717-e81c-42a0-b11b-f3aab0428db1?code=U71JA4">前往</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 墨水灵感 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://flowus.cn/share/ac1963a4-d639-4ea8-bd8e-93c7b1851fb3?code=U71JA4">
+            <img loading="lazy" class="group-item-icon-img" src="/img/yy3.webp" alt="墨水灵感图标" title="墨水灵感">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://flowus.cn/share/ac1963a4-d639-4ea8-bd8e-93c7b1851fb3?code=U71JA4">墨水灵感</a>
+              <p class="discription">用英语表达思想</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://flowus.cn/share/ac1963a4-d639-4ea8-bd8e-93c7b1851fb3?code=U71JA4">前往</a>
+            </div>
+          </div>
+        </article>
+     
+        <!-- 言谈飞跃 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://ieng.teameddie.top/">
+            <img loading="lazy" class="group-item-icon-img" src="/img/yy4.webp" alt="言谈飞跃图标" title="言谈飞跃">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://ieng.teameddie.top/">言谈飞跃<sup class="hot">热门</sup></a>
+              <p class="discription">让世界生动起来</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://ieng.teameddie.top/">前往</a>
+              <span class="linkbotton-tips">最热门</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="product-group need-padding" id="服务">
+      <h2 class="group-title">服务</h2>
+      <p class="group-description">为你提供一对一服务</p>
+      <div class="group-items">
+
+        <!-- 能力提升 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://teameddie.top/service">
+            <img loading="lazy" class="group-item-icon-img" src="/img/icon.webp" alt="能力提升服务图标" title="能力提升">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://teameddie.top/service">能力提升<sup class="hot">热门</sup></a>
+              <p class="discription">让更多人享受到语言的魅力</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://teameddie.top/service">访问</a>
+              <span class="linkbotton-tips">预付费</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 反馈论坛 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://support.qq.com/products/656007">
+            <img loading="lazy" class="group-item-icon-img" src="/img/feedback.webp" alt="反馈论坛图标" title="反馈论坛">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://support.qq.com/products/656007">反馈论坛</a>
+              <p class="discription">用户使用反馈交流</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://support.qq.com/products/656007">访问</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- iEng -->
+    <section class="special-card">
+      <div class="special-card-left">
+        <span class="tips">大事件</span>
+        <h2 class="title">iEng英墨语林<br>现已上线！</h2>
+        <p class="discription">现在你可以轻轻松松开始你的英语学习了，让世界与你对话。</p>
+        <div class="button-group">
+          <a class="button linkbutton" href="https://teameddie.top/service">立即前往</a>
+          <span class="linkbotton-tips">超实用</span>
+        </div>
+      </div>
+      <img loading="lazy" class="special-card-right" src="/img/luanch.webp" alt="iEng英墨语林上线宣传图">
+    </section>
+
+    <!-- Blog banner -->
+    <section class="product-banner" style="background-image: linear-gradient(180deg, #830FC1 0%, #3D00A0 100%);">
+      <div class="banner-info need-padding">
+        <span class="tips">特克猫先生</span>
+        <h2 class="title">新奇的事物<span class="punctuation">，</span><br>有趣的思想<span class="punctuation">。</span></h2>
+        <div class="banner-discription-group">
+          <p class="description">经济学家基因改造的<span class="inline-word">特克猫<span class="punctuation">，</span></span></p>
+          <p class="description">用我的视角，带你体验科技如何温暖生活每一个<span class="inline-word">角落<span class="punctuation">。</span></span></p>
+        </div>
+        <div class="link-group">
+          <a class="primary-button" href="https://mp.weixin.qq.com/s/Q7ea-WbzVUJ_MjUtSa4giQ">点击查看</a>
+          <a class="second-link" href="https://mp.weixin.qq.com/s/Q7ea-WbzVUJ_MjUtSa4giQ">我的故事</a>
+        </div>
+      </div>
+      <div class="banner-pic">
+        <img loading="lazy" class="banner-pic-img" src="/img/banner3.webp" alt="特克猫先生博客宣传图">
+      </div>
+    </section>
+
+    <section class="product-group need-padding" id="公众号阅读">
+      <h2 class="group-title">特克猫先生</h2>
+      <p class="group-description">体验科技如何温暖生活每一个角落</p>
+      <div class="group-items">
+
+        <!-- 前沿科技 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=2&sn=5bbfb3dd0325d0c20f8d47096e478aa7">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk1.webp" alt="前沿科技栏目图标" title="前沿科技">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=2&sn=5bbfb3dd0325d0c20f8d47096e478aa7">前沿科技<sup class="hot">热门</sup></a>
+              <p class="discription">分享科技如何改变生活</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=2&sn=5bbfb3dd0325d0c20f8d47096e478aa7">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 创新应用 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=6&sn=f653eebc416ce3bb9438fda9cad4ac47">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk2.webp" alt="创新应用栏目图标" title="创新应用">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=6&sn=f653eebc416ce3bb9438fda9cad4ac47">创新应用<sup class="new">新品</sup></a>
+              <p class="discription">分享提升工作效率的神器</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=6&sn=f653eebc416ce3bb9438fda9cad4ac47">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 深度视角 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=9&sn=267327b94a0bdf532d70a35293a5eb95">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk3.webp" alt="深度视角栏目图标" title="深度视角">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=9&sn=267327b94a0bdf532d70a35293a5eb95">深度视角<sup class="new">推荐</sup></a>
+              <p class="discription">一起看看更深层的科技</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=9&sn=267327b94a0bdf532d70a35293a5eb95">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 智能汽车 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=4&sn=9a9aaca10dba67cfb3af45915be8fd64">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk4.webp" alt="智能汽车栏目图标" title="智能汽车">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNjY5NzYxNw==&action=getalbum&album_id=3535741034264084482#wechat_redirect">智能汽车</a>
+              <p class="discription">洞察最前沿的智能汽车</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNjY5NzYxNw==&action=getalbum&album_id=3535741034264084482#wechat_redirect">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 未来办公 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=5&sn=a5c0fb1420cdc898b657b510494cdc34">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk5.webp" alt="未来办公栏目图标" title="未来办公">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=5&sn=a5c0fb1420cdc898b657b510494cdc34">未来办公</a>
+              <p class="discription">科技让工作更高效</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=5&sn=a5c0fb1420cdc898b657b510494cdc34">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 妈妈厨房 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=3&sn=b1b849d2fa50b3086bc483177ca92eb5">
+            <img loading="lazy" class="group-item-icon-img" src="/img/tk6.webp" alt="妈妈厨房栏目图标" title="妈妈厨房">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=3&sn=b1b849d2fa50b3086bc483177ca92eb5">妈妈厨房<sup class="hot">热门</sup></a>
+              <p class="discription">独家食谱大公开</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://mp.weixin.qq.com/mp/homepage?__biz=MzkwNjY5NzYxNw==&hid=3&sn=b1b849d2fa50b3086bc483177ca92eb5">访问</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Butterfly 个人板块 -->
+    <section class="product-banner" style="background-image: linear-gradient(180deg, #0F6AC1 0%, #002EA0 100%);">
+      <div class="banner-info need-padding">
+        <span class="tips" style="color: white; opacity: 0.6;">个人板块</span>
+        <h2 class="title">手把手教<span class="punctuation">，</span><br>一步步学<span class="punctuation">。</span></h2>
+        <div class="banner-discription-group">
+          <p class="description">好玩的<span class="inline-word">项目和有趣的故事<span class="punctuation">，</span></span></p>
+          <p class="description">统统都在<span class="inline-word">这里汇集<span class="punctuation">。</span></span></p>
+        </div>
+        <div class="link-group">
+          <a class="primary-button" href="https://teameddie.top/project">访问项目</a>
+          <a class="second-link" href="https://teameddie.top/project">你有什么精彩项目？</a>
+        </div>
+      </div>
+      <div class="banner-pic">
+        <img loading="lazy" class="banner-pic-img" src="/img/banner2.webp" alt="个人项目板块宣传图">
+      </div>
+    </section>
+
+    <section class="product-group need-padding" id="应用">
+      <h2 class="group-title">应用</h2>
+      <p class="group-description">旅行？音乐？我的个人喜欢</p>
+      <div class="group-items">
+
+        <!-- 旅行 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://teameddie.top/travel">
+            <img loading="lazy" class="group-item-icon-img" src="/img/app2.webp" alt="旅行应用图标" title="旅行">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://teameddie.top/travel">旅行</a>
+              <p class="discription">可能是最好用的Notion旅行模板</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://teameddie.top/travel">获取</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 音乐 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://teameddie.top/music">
+            <img loading="lazy" class="group-item-icon-img" src="/img/app1.webp" alt="音乐应用图标" title="音乐">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://teameddie.top/music">音乐</a>
+              <p class="discription">看看我的对音乐的看法</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://teameddie.top/music">访问</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 电影 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://teameddie.top/movie">
+            <img loading="lazy" class="group-item-icon-img" src="/img/app3.webp" alt="电影应用图标" title="电影">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://teameddie.top/movie">电影</a>
+              <p class="discription">每一帧都是心动的瞬间</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://teameddie.top/movie">获取</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 工具 -->
+    <section class="product-banner" style="background-image: linear-gradient(180deg, #F08753 0%, #D33030 100%);">
+      <div class="banner-info need-padding">
+        <span class="tips" style="color: white; opacity: 0.6;">微信表情</span>
+        <h2 class="title">能表达<span class="punctuation">，</span><br>更会表达<span class="punctuation">。</span></h2>
+        <div class="banner-discription-group">
+          <p class="description">更多精彩的<span class="inline-word">工具<span class="punctuation">，</span></span></p>
+          <p class="description">为简单的应用带来更多<span class="inline-word">乐趣<span class="punctuation">。</span></span></p>
+        </div>
+        <div class="link-group">
+          <a class="primary-button" href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/M/iZ5dNdSEY8w4Hfo/EhcJG/lYjtqk4OkYoAloEFZXKI/KBjU+N7jzWUa3xAjMRDs=">微信表情</a>
+        </div>
+      </div>
+      <div class="banner-pic">
+        <img loading="lazy" class="banner-pic-img" src="/img/banner4.webp" alt="微信表情宣传图">
+      </div>
+    </section>
+
+    <section class="product-group need-padding" id="项目">
+      <h2 class="group-title">项目</h2>
+      <p class="group-description">有一些不错的工具等你发现</p>
+      <div class="group-items">
+
+        <!-- Bing Copilot -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://bing.teameddie.top">
+            <img loading="lazy" class="group-item-icon-img" src="/img/ck1.webp" alt="Bing Copilot图标" title="Bing Copilot">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://bing.teameddie.top">Bing Copilot<sup class="new">新品</sup></a>
+              <p class="discription">国内也能用的Bing Copilot</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://bing.teameddie.top">获取</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 绮梦公主表情包 -->
+        <article class="group-item">
+          <a class="group-item-icon" href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PhDDqx3W2Xt8rdTZUcIxlaMNNdZieeeasOFTUhEqP7t4uNp6HveWqh3nEc+nzMax4=">
+            <img loading="lazy" class="group-item-icon-img" src="/img/ck2.webp" alt="绮梦公主表情包图标" title="绮梦公主表情包">
+          </a>
+          <div class="group-info-group">
+            <div class="group-info">
+              <a class="title" href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PhDDqx3W2Xt8rdTZUcIxlaMNNdZieeeasOFTUhEqP7t4uNp6HveWqh3nEc+nzMax4=">绮梦公主表情包<sup class="new">新品</sup></a>
+              <p class="discription">来自遥远古代王国的神秘公主</p>
+            </div>
+            <div class="group-info-button">
+              <a class="linkbutton" href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/PhDDqx3W2Xt8rdTZUcIxlaMNNdZieeeasOFTUhEqP7t4uNp6HveWqh3nEc+nzMax4=">获取</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 超人喵表情包 -->
+        <article class="group-item">
+        <a class="group-item-icon"
+          href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/M/iZ5dNdSEY8w4Hfo/EhcJG/lYjtqk4OkYoAloEFZXKI/KBjU+N7jzWUa3xAjMRDs="
+          >
+          <img class="group-item-icon-img" src="/img/ck3.webp" alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title"
+              href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/M/iZ5dNdSEY8w4Hfo/EhcJG/lYjtqk4OkYoAloEFZXKI/KBjU+N7jzWUa3xAjMRDs="
+              >超人喵表情包<sup class="new">新品</sup></a>
+            <a class="discription"
+              href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/M/iZ5dNdSEY8w4Hfo/EhcJG/lYjtqk4OkYoAloEFZXKI/KBjU+N7jzWUa3xAjMRDs=r"
+              >穿着超人披风的可爱喵</a>   
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton"
+              href="https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/emoticonview?oper=single&t=shop/detail&productid=aL2PCfwK/89qO7sF6/+I+UDhfwEjhec2ZNvdnLLJRd/M/iZ5dNdSEY8w4Hfo/EhcJG/lYjtqk4OkYoAloEFZXKI/KBjU+N7jzWUa3xAjMRDs="
+              >获取</a>
+          </div>
+        </div>
+      </div>      
+      
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-content need-padding">
+      <span class="info">Copyright © 2022-2025 MR.TECH CAT 保留所有权利。</span>
+      <div class="info-group"><a class="info" href="https://www.teameddie.top" >特克猫先生</a><a class="info" href="https://www.teameddie.top" >MR. TECH CAT</a></div>
+      
+    </div>
+  </div>
+</body>
+
+<script src="/js/simpleParallax.min.js"></script>
+<script src="/js/main.js"></script>
+
+</html>
