@@ -247,6 +247,36 @@
         min-width: 100%;
       }
     }
+            /* 新增样式调整 */
+        .product-group {
+            margin-bottom: 40px !important; /* 减少板块间距 */
+        }
+        .product-banner {
+            margin-bottom: 30px !important;
+        }
+        .special-card {
+            margin: 30px 0 !important;
+        }
+        
+        /* 统一教育背景和技能特长的样式 */
+        .education-section, .skills-section {
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+        .education-section h2, .skills-section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .education-item, .skill-item {
+            margin-bottom: 15px;
+        }
+        .education-title, .skill-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="/main.css">
   </style>
 </head>
 
@@ -363,97 +393,54 @@
     </div>
   </div>
 
-  <div class="resume-section" id="教育背景">
-    <div class="resume-card">
-      <h2 class="section-title">教育背景</h2>
-      
-      <div class="education-content">
-        <div class="education-left">
-          <div class="education-item">
-            <h3 class="education-school">暨南大学</h3>
-            <p class="education-degree">经济学学士</p>
-            <p class="education-period">2018-2022</p>
-            <p class="education-description">主修市场营销，获得优秀毕业生称号。</p>
-          </div>
+ <!-- 教育背景部分 - 调整为统一样式 -->
+    <div class="product-group need-padding education-section" id="education">
+        <h2 class="group-title">教育背景</h2>
+        <span class="group-description">持续学习，不断进步</span>
+        <div class="group-items">
+            <div class="group-item education-item">
+                <div class="group-info-group">
+                    <div class="group-info">
+                        <div class="education-title">市场管理与数字营销</div>
+                        <div class="discription">专注于数字营销策略与市场分析</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="education-right">
-          <img class="education-image" src="/img/education.webp" alt="" title="">
-        </div>
-      </div>
     </div>
-  </div>
 
-  <div class="resume-section" id="技能特长">
-    <div class="resume-card">
-      <h2 class="section-title">技能特长</h2>
-      
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>战略运营</h3>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>品牌体系从0到1建设</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>用户增长模型设计</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>数据驱动运营策略</span>
-          </div>
+    <!-- 技能特长部分 - 调整为统一样式 -->
+    <div class="product-group need-padding skills-section" id="skills">
+        <h2 class="group-title">技能特长</h2>
+        <span class="group-description">专业领域的核心能力</span>
+        <div class="group-items">
+            <div class="group-item skill-item">
+                <div class="group-info-group">
+                    <div class="group-info">
+                        <div class="skill-title">数字营销</div>
+                        <div class="discription">SEO/SEM, 社交媒体营销, 内容营销</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group-item skill-item">
+                <div class="group-info-group">
+                    <div class="group-info">
+                        <div class="skill-title">市场分析</div>
+                        <div class="discription">数据分析, 用户行为研究, 竞争分析</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group-item skill-item">
+                <div class="group-info-group">
+                    <div class="group-info">
+                        <div class="skill-title">产品管理</div>
+                        <div class="discription">产品规划, 用户体验设计, 敏捷开发</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="skill-category">
-          <h3>业务执行</h3>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>爆款内容生产</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>多平台内容运营</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>营销事件策划</span>
-          </div>
-        </div>
-        
-        <div class="skill-category">
-          <h3>技术应用</h3>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>数据分析</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>Notion/飞书工作流</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>产品原型设计</span>
-          </div>
-        </div>
-        
-        <div class="skill-category">
-          <h3>其他能力</h3>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>团队领导</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>项目管理</span>
-          </div>
-          <div class="skill-item">
-            <i class="heofont icon-check-line"></i>
-            <span>英语流利</span>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+
   <!-- 简历内容结束 -->
 
   <div class="footer">
